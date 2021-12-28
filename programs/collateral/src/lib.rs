@@ -1,5 +1,5 @@
 use anchor_lang::prelude::*;
-
+use crate::{program_error::ProgramError, error::ErrorCollateral};
 use anchor_spl::token::{
     self, 
     TokenAccount, 
